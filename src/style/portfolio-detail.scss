@@ -1,0 +1,80 @@
+.portfolio-detail-wrapper {
+    width: 100vw;
+  
+    .banner {
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 4px 20px rgba(173, 216, 230, 0.8);
+
+      .logo-details:hover {
+        transform: scale(1.2); /* Agranda la imagen un 20% al hacer hover */
+      }
+    }
+  
+    .portfolio-detail-description-wrapper {
+      text-align: center;
+      margin-top: 42px;
+      display: flex;
+      justify-content: center;
+  
+      .description {
+        //width: 700px;
+        font-size: 2em;
+        margin-bottom: 50px;
+        background: white;
+        width: 70%;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: inset 15px -10px 200px rgba(69, 207, 229, 0.35);
+
+        p{
+            padding: 20px;
+            width: 50%;
+            font-weight: 700;
+        }
+      }
+    }
+  
+    .bottom-content-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .site-link {
+        padding: 15px;
+        background-color: $teal;
+        border-radius: 3px;
+        text-decoration: none;
+        color: white;
+        transition: 0.5s ease-in-out;
+        font-size: 1.2em;
+  
+        &:hover {
+          background-color: $dark-teal;
+          transform: scale(1.5);
+        }
+      }
+    }
+    .blur{
+        background: $teal;
+        border-radius: 50%;
+        filter: blur(150px);
+        position: absolute;
+        z-index: -9;
+        left: 40%;
+        top: 70%;
+    }
+    .blur-f-1, .blur-f-2{
+        filter: blur(200px);
+        height: 12rem;
+        width: 26rem;
+    }
+
+
+      
+}

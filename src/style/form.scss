@@ -1,0 +1,32 @@
+textarea {
+    border: 1px solid $charcoal;
+    background-color: transparent;
+    font-size: 1.1em;
+    height: 100px;
+    outline: none;
+    padding: 10px;
+    font-family: "SUSE", sans-serif;
+    transition: 0.5s all ease-in-out;
+
+    &:focus {
+        outline: none;
+        border: 1px solid $teal;
+      }
+  }
+  
+  .select-element {
+    border: 1px solid #ccc;
+    font-size: 0.8rem;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: transparent;
+    outline: none;
+    font-family: "SUSE", sans-serif;
+    transition: 0.5s all ease-in-out;
+
+    &:focus {
+        outline: none;
+        border: 1px solid $teal;
+      }
+  }
